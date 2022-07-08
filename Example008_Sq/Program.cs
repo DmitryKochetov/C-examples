@@ -1,6 +1,5 @@
 ﻿Console.WriteLine("Введите число");
-int i = Console.Read();
-
-i = i * i;
-
-Console.Write(i);
+int i = Convert.ToInt32(Console.ReadLine());
+int n = 0;
+n = i * i;
+Console.WriteLine(n);
